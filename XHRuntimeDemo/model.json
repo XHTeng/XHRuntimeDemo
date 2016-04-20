@@ -1,0 +1,26 @@
+{
+    "name" : "Tom",
+    "age" : 20,
+    "height" : "181",
+    "money" : "1000",
+    "cat" : {
+       "name" : "Persia",
+        "price" : "500",
+        "fish" : {
+            "name" : "鱼",
+            "weight" : 50
+        }      
+    },
+    "books" : [
+        {
+            "name" : "C语言程序设计",
+            "price" : 20.8,
+            "publisher" : "清华大学出版社"
+        },
+        {
+            "name" : "乔布斯传",
+            "price" : 50.2,
+            "publisher" : "苹果出版社"
+        }
+    ]  
+}
