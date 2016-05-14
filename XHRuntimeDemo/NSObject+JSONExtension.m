@@ -56,6 +56,10 @@
                         
                         NSString *classStr = [self arrayObjectClass];
                         class = NSClassFromString(classStr);
+                    }else {
+                        
+                        NSLog(@"数组内模型是未知类型");
+                        return;
                     }
                     // 将数组中的所有模型进行字典转模型
                     for (int i = 0; i < array.count; i++) {
